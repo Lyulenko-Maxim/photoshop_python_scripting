@@ -15,11 +15,11 @@ Photoshop. Он включает в себя набор классов для с
 
 ## Изображение до обработки
 
-<img src="https://github.com/Lyulenko-Maxim/photoshop_python_scripting/blob/main/examples/before.jpg" alt="Изображение до обработки" width="512">
+<img src="https://github.com/Lyulenko-Maxim/photoshop_python_scripting/blob/master/examples/before.jpg" alt="Изображение до обработки" width="512">
 
 ## Изображение после обработки
 
-<img src="https://github.com/Lyulenko-Maxim/photoshop_python_scripting/blob/main/examples/after.png" alt="Изображение после обработки" title="После" width="512"/>
+<img src="https://github.com/Lyulenko-Maxim/photoshop_python_scripting/blob/master/examples/after.png" alt="Изображение после обработки" title="После" width="512"/>
 
 ## Требования
 
