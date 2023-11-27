@@ -1,54 +1,48 @@
 # Сценарии Adobe Photoshop, написанные на Python-библиотеке win32com. 
-
 Это приложение на языке Python предоставляет возможности по обработке изображений с использованием автоматизации Adobe
 Photoshop. Он включает в себя набор классов для создания конкретных эффектов изображений и основной класс для
 взаимодействия с объектной моделью Photoshop.
 
 ## Доступный функционал
-
 - **BasePhotoshopAction**: Абстрактный базовый класс для добавления новых сценариев Photoshop.
 
 
 - **DottedImageAction**: Класс для создания точечного эффекта на изображениях.
 
-## Пример
-
 ## Изображение до обработки
-
-<img src="https://github.com/Lyulenko-Maxim/photoshop_python_scripting/blob/main/examples/before.jpg" alt="Изображение до обработки" width="512">
+<img src="https://github.com/Lyulenko-Maxim/photoshop_python_scripting/blob/master/examples/before.jpg" alt="Изображение до обработки" width="512">
 
 ## Изображение после обработки
-
-<img src="https://github.com/Lyulenko-Maxim/photoshop_python_scripting/blob/main/examples/after.png" alt="Изображение после обработки" title="После" width="512"/>
+<img src="https://github.com/Lyulenko-Maxim/photoshop_python_scripting/blob/master/examples/after.png" alt="Изображение после обработки" title="После" width="512"/>
 
 ## Требования
-
 - Python 3.11
 - Пакетный менеджер pip
 - Операционная система Windows
 - Установленный Adobe Photoshop в системе
 
 ## Установка
+1. Склонируйте репозиторий или [скачайте zip-архив](https://github.com/Lyulenko-Maxim/photoshop_python_scripting/archive/refs/heads/master.zip):
 
-1. Создайте виртуальное окружение:
+   ```bash
+   git clone https://github.com/Lyulenko-Maxim/photoshop_python_scripting.git
+   
+3. Создайте виртуальное окружение:
 
    ```bash
    python -m venv venv
 
-2. Активируйте виртуальное окружение:
+4. Активируйте виртуальное окружение:
 
    ```bash
    .\venv\Scripts\activate
 
-3. Установите необходимые зависимости Python:
+5. Установите необходимые зависимости Python:
 
    ```bash
    pip install -r requirements.txt
 
-Теперь ваше виртуальное окружение готово к использованию.
-
 ## Использование
-
 1. Запустите скрипт main.py.
 
    ```bash
@@ -74,11 +68,12 @@ Photoshop. Он включает в себя набор классов для с
 
 8. Выберите расположение и имя файла для документа.
 
+## Документация
+[Python win32com Adobe Photoshop API](https://github.com/lohriialo/photoshop-scripting-python)
+
 
 ## Разработчики
-
 [**Maxim Lyulenko**](https://github.com/Lyulenko-Maxim)
 
 ## Лицензия
-
 Этот проект лицензирован по лицензии [**MIT**](https://github.com/Lyulenko-Maxim/photoshop_python_scripting/blob/main/LICENSE).
