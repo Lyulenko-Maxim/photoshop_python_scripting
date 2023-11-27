@@ -22,7 +22,7 @@ Photoshop. Он включает в себя набор классов для с
 - Установленный Adobe Photoshop в системе
 
 ## Установка
-1. Склонируйте репоизторий или [скачайте zip-архив](https://github.com/Lyulenko-Maxim/photoshop_python_scripting/archive/refs/heads/master.zip):
+1. Склонируйте репозиторий или [скачайте zip-архив](https://github.com/Lyulenko-Maxim/photoshop_python_scripting/archive/refs/heads/master.zip):
 
    ```bash
    git clone https://github.com/Lyulenko-Maxim/photoshop_python_scripting.git
