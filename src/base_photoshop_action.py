@@ -96,6 +96,14 @@ class BasePhotoshopAction(ABC):
         descriptor = Dispatch("Photoshop.ActionDescriptor")
         self.app.ExecuteAction(self.s('newPlacedLayer'), descriptor)
 
+    def convert_image_to_rgb_mode(self):
+        """
+        Конвертирует изображение в RGB-режим.
+        """
+        descriptor = Dispatch("Photoshop.ActionDescriptor")
+        descriptor.PutClass(self.c("T   "), self.c("RGBM"))
+        self.app.ExecuteAction(self.c("CnvM"), descriptor)
+
     def apply_mosaic(self, cell_size):
         """
         Применяет эффект мозаики с заданным размером ячейки в Photoshop.

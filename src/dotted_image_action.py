@@ -73,6 +73,8 @@ class DottedImageAction(BasePhotoshopAction):
         Переопределяет метод базового класса,
         выполняет сценарий точечного эффекта на изображении.
         """
+
+        self.convert_image_to_rgb_mode()
         self.convert_current_layer_to_smart_object()
 
         photo_layer = self.doc.ActiveLayer
